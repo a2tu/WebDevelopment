@@ -1,0 +1,74 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #f2ffcc;
+}
+
+/*HEADER STYLE*/
+#header-nav{
+	background-color: #bde052;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1{
+	font-family: 'Raleway', sans-serif;
+	color: #ff9900;
+	font-size: 2.2em;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .7;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #ff9900;
+}
+
+#nav-list a{
+	text-align: center;
+	font-size: 1.1em;
+	background-color: #86b300;
+	color: #663300;
+	opacity: .8;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+/*END HEADER STYLE*/
+
+/*MAIN CONTENT*/
+#main-content h2{
+	margin-top: -5px;
+	margin-bottom: 10px;
+	font-size: 1.8em;
+	color: #663300;
+}
+
+.item-tile{
+	background-color: #ffcc00;
+	margin: 10px 25px;
+	padding-left: 8px;
+	border: 1px solid #ffcc00;
+	border-radius: 4px;
+
+}
+.item-tile p{
+	font-size: 1em;
+	color: #994d00;
+	margin-top: 5px;
+	padding: 10px;
+}
+
+span.menu-item-title{
+	font-size: 1.4em;
+	display: block;
+	text-align: center;
+	color: #663300;
+	padding-top: 5px;
+}
